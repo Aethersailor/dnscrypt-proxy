@@ -78,7 +78,7 @@ jobs:
           labels: |
             org.opencontainers.image.title=dnscrypt-proxy
             org.opencontainers.image.description=Unmodified official dnscrypt-proxy binaries
-            org.opencontainers.image.source=https://github.com/Aethersailor/dnscrypt-proxy-docker
+            org.opencontainers.image.source=https://github.com/Aethersailor/dnscrypt-proxy
             org.opencontainers.image.revision=${{ github.sha }}
             org.opencontainers.image.version=${{ steps.upstream.outputs.version }}
             org.opencontainers.image.licenses=ISC
